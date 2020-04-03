@@ -1,5 +1,4 @@
 import os
-
 import api
 import tables
 from menu import header, user_prompt

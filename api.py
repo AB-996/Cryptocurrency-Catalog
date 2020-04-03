@@ -1,9 +1,6 @@
 import json
-
 import requests
-
 from web_data import *
-
 
 def get_listings(option = "", start = 1, convert = "USD"):
     url_listings = LISTINGS_URL +"?convert=" + convert  + "&start="+str(start)

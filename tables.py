@@ -1,11 +1,8 @@
 from colorama import Back, Fore, Style
 from prettytable import PrettyTable
 import json
-
 import api
 import xlsxwriter
-
-
 
 def extract_data(info):
     name = info["name"]
